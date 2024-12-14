@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM</title>
+    <link rel="stylesheet" href="css/essentials/nav.css">
+    <link rel="stylesheet" href="css/home/home.css">
+    <link rel="stylesheet" href="css/essentials/utility.css">
+    <link rel="icon" class="favicon" href="images/logos/logo1.png">
+
+    <link rel="stylesheet" href="css/essentials/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+
+    <header>
+        <nav class="navlinks">
+            <ul>
+                <li><a href="index.html"><img src="images/logos/logo.png" alt="logo"></a></li>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="hub.html">HUB</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container2 what-are-jdms">
+            <div class="jdms-content">
+                <div class="jdms-text">
+                    <h1>What Are JDM Cars?</h1>
+                    <p>
+                        JDM (Japanese Domestic Market) cars are automobiles designed specifically for Japan's domestic
+                        market.
+                        Renowned for their innovative engineering, sleek designs, and exceptional performance, JDM cars
+                        have
+                        become a global phenomenon among car enthusiasts. These vehicles embody precision, power, and
+                        culture.
+                    </p>
+                    <p>
+                        Whether it's the iconic Nissan Skyline, the agile Toyota Supra, or the stylish Honda NSX, JDM
+                        cars
+                        represent the pinnacle of automotive craftsmanship.
+                    </p>
+                    <button class="learn-more-btn">Learn More</button>
+                </div>
+                <div class="jdms-image">
+                    <img src="images/home/jdm-main.jpg" alt="JDM Car">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container1">
+            <!-- Container for our gallery -->
+            <div class="container1">
+                <div class="main_view">
+                    <img id="main" src="" alt="Main View">
+                </div>
+                <div class="side_view"></div>
+            </div>
+        </section>
+
+
+        <section class="container3 jdm-difference">
+            <!-- Header -->
+            <div class="difference-header">
+                <h1>What Makes JDM Cars Different?</h1>
+                <p>A detailed look at how JDM cars stand apart from the rest.</p>
+            </div>
+
+            <!-- Tabular Comparison -->
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Attribute</th>
+                            <th>JDM Cars</th>
+                            <th>Other Cars</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Design</td>
+                            <td>Unique, Sleek, and Iconic</td>
+                            <td>Conventional and Varying</td>
+                        </tr>
+                        <tr>
+                            <td>Performance</td>
+                            <td>High-Powered Engines for Drifting</td>
+                            <td>Balanced for Standard Use</td>
+                        </tr>
+                        <tr>
+                            <td>Customization</td>
+                            <td>Extensive and Affordable</td>
+                            <td>Limited and Expensive</td>
+                        </tr>
+                        <tr>
+                            <td>Price</td>
+                            <td>Competitive with High Value</td>
+                            <td>Higher for Similar Features</td>
+                        </tr>
+                        <tr>
+                            <td>Community</td>
+                            <td>Passionate and Global</td>
+                            <td>Region-Specific</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Header for Graph Section -->
+            <div class="better-header">
+                <h1>Why JDM Cars Are Better?</h1>
+                <p>See how JDM cars excel in critical attributes.</p>
+            </div>
+
+            <!-- Graph Section -->
+            <div class="graphs">
+                <div class="bar-chart">
+                    <canvas id="barChart"></canvas>
+                </div>
+                <div class="line-chart">
+                    <canvas id="lineChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+    </main> <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-topic">About Us</div>
+                <p>JDM Community is the largest drift community and car domestic market. Our goal is to spread JDM
+                    culture globally, in collaboration with Mitsubishi, Toyota, Suzuki, and more.</p>
+                <div class="footer-topic">Contact Us</div>
+                <p><i class="fas fa-phone-alt"></i><a href="tel:+917888117903">+91 7888117903</a></p>
+                <p><i class="fas fa-envelope"></i><a href="mailto:devjasani79@gmail.com">devjasani79@gmail.com</a></p>
+            </div>
+
+            <div class="footer-middle">
+                <div class="footer-topic">Quick Links</div>
+                <ul>
+                    <li><a href="hub.html#trivia">JDM Trivia</a></li>
+                    <li><a href="hub.html#merchandise">JDM Merchandise</a></li>
+                    <li><a href="hub.html#locators">JDM Locators</a></li>
+                    <li><a href="hub.html#events">JDM Events</a></li>
+                    <li><a href="hub.html#history">JDM History</a></li>
+                    <li><a href="hub.html#glossary">JDM Glossary</a></li>
+                    <li><a href="hub.html#membership">GET MEMBERSHIP</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-topic">Subscribe to Us</div>
+                <form id="subscribeForm" onsubmit="submitForm(); return false;">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><img
+                            src="images/logos/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/dev_jasani/" target="_blank" class="social-icon"><img
+                            src="images/logos/instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/+917888117903" target="_blank" class="social-icon"><img
+                            src="images/logos/whatsapp.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 <a href="#">JDM WEB</a>. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/home/caraousel.js"></script>
+    <script src="js/home/chart.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>

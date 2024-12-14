@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT</title>
+    
+    <link rel="icon" class="favicon" href="images/logos/logo1.png">
+    <link rel="stylesheet" href="css/essentials/footer.css">
+    <link rel="stylesheet" href="css/essentials/nav.css">
+    <link rel="stylesheet" href="css/essentials/utility.css">
+    <link rel="stylesheet" href="css/hub/merch/checkout.css">
+</head>
+
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav class="navlinks">
+        <ul>
+            <li><a href="index.html"><img src="images/logos/logo.png" alt="logo"></a></li>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="hub.html">HUB</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="checkout-container">
+        <h1>Checkout</h1>
+
+        <!-- Billing Details Section -->
+        <section class="billing-details">
+            <h2>Billing Details</h2>
+            <form id="billing-form">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="address-line-1">Address Line 1</label>
+                <input type="text" id="address-line-1" name="address-line-1" required>
+
+                <label for="address-line-2">Address Line 2</label>
+                <input type="text" id="address-line-2" name="address-line-2">
+
+                <label for="pin-code">PIN Code</label>
+                <input type="text" id="pin-code" name="pin-code" required>
+
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </form>
+        </section>
+
+        <!-- Order Summary Section -->
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+            <div id="order-items">
+                <!-- Items will be dynamically populated -->
+            </div>
+            <div class="grand-total">
+                <h3>Grand Total: $<span id="grand-total">0</span></h3>
+            </div>
+        </section>
+
+        <!-- Payment Button -->
+        <section class="payment-section">
+            <button id="pay-now" class="pay-button">Proceed to Payment</button>
+        </section>
+    </div>
+
+
+
+
+ <!-- Footer Section -->
+ <footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <div class="footer-topic">About Us</div>
+            <p>JDM Community is the largest drift community and car domestic market. Our goal is to spread JDM
+                culture globally, in collaboration with Mitsubishi, Toyota, Suzuki, and more.</p>
+            <div class="footer-topic">Contact Us</div>
+            <p><i class="fas fa-phone-alt"></i><a href="tel:+917888117903">+91 7888117903</a></p>
+            <p><i class="fas fa-envelope"></i><a href="mailto:devjasani79@gmail.com">devjasani79@gmail.com</a></p>
+        </div>
+
+        <div class="footer-middle">
+            <div class="footer-topic">Quick Links</div>
+            <ul>
+                <li><a href="hub.html#trivia">JDM Trivia</a></li>
+                <li><a href="hub.html#merchandise">JDM Merchandise</a></li>
+                <li><a href="hub.html#locators">JDM Locators</a></li>
+                <li><a href="hub.html#events">JDM Events</a></li>
+                <li><a href="hub.html#history">JDM History</a></li>
+                <li><a href="hub.html#glossary">JDM Glossary</a></li>
+                <li><a href="hub.html#membership">GET MEMBERSHIP</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-topic">Subscribe to Us</div>
+            <form id="subscribeForm" onsubmit="submitForm(); return false;">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <div class="footer-social">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><img
+                        src="images/logos/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/dev_jasani/" target="_blank" class="social-icon"><img
+                        src="images/logos/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/+917888117903" target="_blank" class="social-icon"><img
+                        src="images/logos/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 <a href="#">JDM WEB</a>. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="js/footer.js"></script>
+    <script src="js/hub/merch/checkout.js"></script>
+</body>
+
+</html>

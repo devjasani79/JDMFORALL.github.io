@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB FOR ALL</title>
+    <link rel="icon" class="favicon" href="images/logos/logo1.png">
+
+    <link rel="stylesheet" href="css/essentials/footer.css">
+    <link rel="stylesheet" href="css/essentials/nav.css">
+    <link rel="stylesheet" href="css/essentials/utility.css">
+    <link rel="stylesheet" href="css/hub/hub.css">
+    <link rel="stylesheet" href="css/hub/trivia.css">
+    <link rel="stylesheet" href="css/hub/locators.css">
+</head>
+
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navlinks">
+            <ul>
+                <li><a href="index.html"><img src="images/logos/logo.png" alt="logo"></a></li>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="hub.html">HUB</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Background Image -->
+        <div class="background-container">
+            <img src="./images/services/bg-img5.jpg" alt="JDM Hub Background" class="background-image">
+        </div>
+
+
+        <section class="hub-section">
+
+
+            <!-- Side Tab Navigation -->
+            <div class="side-tab" id="sideTab">
+                <div class="close-btn" onclick="toggleMenu()">&times;</div> <!-- Close button (X) -->
+                <nav class="side-nav">
+                    <a href="#welcome">Welcome</a>
+                    <a href="#merchandise">Merchandise</a>
+                    <a href="#trivia">Trivia</a>
+                    <a href="#locators">Locators</a>
+                    <a href="#history-timeline">History Timeline</a>
+                    <a href="#glossary">Glossary</a>
+                    <a href="#events">Events</a>
+                    <a href="#membership">Be A Member</a>
+                </nav>
+            </div>
+
+
+            <!-- Intro Section -->
+            <div id="welcome" class="intro">
+                <h1>Welcome to the JDM Hub</h1>
+                <!-- Hamburger Menu Button -->
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <button class="btn">EXPLORE HUB
+
+                        &#9776; <!-- Hamburger icon (3 lines) -->
+                    </button>
+                </div>
+                <p>
+                    This is the heart of JDM culture—a central hub for exploring trivia, exclusive merchandise, car
+                    locators, events,
+                    and much more. Whether you're a fan of drifting or vintage car history, the JDM Hub is the perfect
+                    destination!
+                </p>
+            </div>
+            
+            
+            <!-- Subsections -->
+            <div class="subsections">
+
+
+
+                <!-- Merchandise Section -->
+                <div id="merchandise" class="subsection">
+                    <div class="content">
+                        <h2>Exclusive JDM Merchandise</h2>
+                        <p>Show your love for JDM culture with our exclusive range of apparel and accessories. Whether
+                            you're looking for custom JDM t-shirts, hoodies, or rare car decals, we’ve got something for
+                            every enthusiast. Stand out in the crowd with high-quality merchandise designed to showcase
+                            your passion for Japanese cars.</p>
+                        <!-- Updated button to link to merch.html -->
+                        <a href="merch.html" class="btn">Explore Merchandise</a>
+                    </div>
+                    <img src="./images/services/merch.jpg" alt="Merchandise Preview">
+                </div>
+                
+                <!-- Trivia Overlay -->
+                <div id="triviaOverlay" class="overlay">
+                    <div class="overlay-content">
+                        <h3>JDM Trivia</h3>
+                        <div id="questionContainer"></div>
+                        <div id="resultContainer" style="display: none;">
+                            <h4>Result:</h4>
+                            <p id="score"></p>
+    
+    
+                            <button onclick="closeTriviaOverlay()" class="btn">Close</button>
+                        </div>
+                        <button id="nextButton" class="btn" onclick="nextQuestion()" disabled>Next</button>
+                        <button onclick="closeTriviaOverlay()" class="btn"
+                            style="position: absolute; top: 10px; right: 10px;">X</button>
+                    </div>
+    
+                </div>
+    
+                <!-- Trivia Section -->
+                <div id="trivia" class="subsection">
+                    <div class="content">
+                        <h2>JDM Trivia - Test Your Knowledge!</h2>
+                        <p>How well do you know the iconic cars of Japan? Challenge yourself with our interactive JDM
+                            trivia quiz. From legendary models like the Nissan Skyline to the Toyota Supra, explore the
+                            rich history of Japanese performance cars. Are you ready to claim the title of JDM expert?
+                        </p>
+                        <a href="#" class="btn triviabtn" onclick="openTriviaOverlay(event)"><span>Start
+                                Trivia</span></a>
+                    </div>
+                    <img src="./images/services/trivia.jpg" alt="Trivia Preview">
+                </div>
+                
+                <!-- Locators Section -->
+                <div id="locators" class="subsection">
+                    <div class="content">
+                        <h2>Find JDM Dealers & Hotspots</h2>
+                        <p>Looking for the best JDM cars, parts, or accessories? Our Locators tool helps you find
+                            trusted JDM dealerships and community hotspots near you. Whether you’re hunting for a rare
+                            part or want to connect with fellow enthusiasts, our locator will guide you to the nearest
+                            JDM hubs and events.</p>
+                        <a href="#" class="btn" onclick="openLocatorOverlay()">Locate Dealers</a>
+                    </div>
+                    <img src="./images/services/locators.jpg" alt="Locators Preview">
+                </div>
+    
+                <!-- Overlay -->
+                <div id="locator-overlay" class="overlay">
+                    <div class="overlay-content">
+                        <button class="close-btn" onclick="closeLocatorOverlay()">&#10005;</button>
+                        <!-- "X" Close button -->
+                        <div class="category-menu">
+                            <button onclick="loadCategoryData('dealerships')">Dealerships</button>
+                            <button onclick="loadCategoryData('parts')">Parts</button>
+                            <button onclick="loadCategoryData('hotspots')">Hotspots</button>
+                        </div>
+                        <div id="locator-data" class="locator-data">
+                            <!-- Dynamically populated data will go here -->
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- History Timeline Section -->
+                <div id="history-timeline" class="subsection">
+                    <div class="content">
+                        <h2>JDM History - A Rich Legacy</h2>
+                        <p>The evolution of JDM cars is a story of innovation, passion, and culture. From the first
+                            models that graced the streets of Japan to the global icons that have captured the hearts of
+                            car enthusiasts everywhere, our History Timeline takes you through each milestone of JDM’s
+                            legacy. Discover how these vehicles revolutionized the automotive world.</p>
+                        <a href="history.html" class="btn">View History</a>
+                    </div>
+                    <img src="./images/services/history.png" alt="History Timeline Preview">
+                </div>
+
+                <!-- Glossary Section -->
+                <div id="glossary" class="subsection">
+                    <div class="content">
+                        <h2>JDM Glossary</h2>
+                        <p>Learn the terms that define the world of Japanese Domestic Market cars. From "drift" to
+                            "touge," get the insider's guide to the JDM lingo.</p>
+                        <a href="glossary.html" class="btn">Discover Terms</a>
+                    </div>
+                    <img src="images/services/glossary.jpg" alt="JDM Glossary">
+                </div>
+
+
+                <!-- Events Section -->
+                <div id="events" class="subsection">
+                    <div class="content">
+                        <h2>JDM Events - Stay Connected</h2>
+                        <p>From drift competitions to car shows, JDM events are the heart of the community. Stay updated
+                            on all upcoming events, including local meetups, international drift challenges, and more.
+                            Get ready to join the action, meet fellow enthusiasts, and celebrate the world of JDM cars.
+                        </p>
+                        <a href="events.html" class="btn">Discover Events</a>
+                    </div>
+                    <img src="./images/services/events.jpg" alt="Events Preview">
+                </div>
+                
+                <!-- membership -->
+                <div id="membership" class="subsection">
+                    <div class="content">
+                        <h2>JDM Membership</h2>
+                        <p>Become a member to unlock exclusive content, early event access, custom merchandise, and
+                            more.</p>
+                        <a href="membership.html" class="btn">Join Now</a>
+                    </div>
+                    <img src="images/services/memb.png" alt="JDM Membership">
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-topic">About Us</div>
+                <p>JDM Community is the largest drift community and car domestic market. Our goal is to spread JDM
+                    culture globally, in collaboration with Mitsubishi, Toyota, Suzuki, and more.</p>
+                <div class="footer-topic">Contact Us</div>
+                <p><i class="fas fa-phone-alt"></i><a href="tel:+917888117903">+91 7888117903</a></p>
+                <p><i class="fas fa-envelope"></i><a href="mailto:devjasani79@gmail.com">devjasani79@gmail.com</a></p>
+            </div>
+
+            <div class="footer-middle">
+                <div class="footer-topic">Quick Links</div>
+                <ul>
+                    <li><a href="hub.html#trivia">JDM Trivia</a></li>
+                    <li><a href="hub.html#merchandise">JDM Merchandise</a></li>
+                    <li><a href="hub.html#locators">JDM Locators</a></li>
+                    <li><a href="hub.html#events">JDM Events</a></li>
+                    <li><a href="hub.html#history">JDM History</a></li>
+                    <li><a href="hub.html#glossary">JDM Glossary</a></li>
+                    <li><a href="hub.html#membership">GET MEMBERSHIP</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-topic">Subscribe to Us</div>
+                <form id="subscribeForm" onsubmit="submitForm(); return false;">
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="submit" value="Subscribe">
+                </form>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><img
+                            src="images/logos/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/dev_jasani/" target="_blank" class="social-icon"><img
+                            src="images/logos/instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/+917888117903" target="_blank" class="social-icon"><img
+                            src="images/logos/whatsapp.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 <a href="#">JDM WEB</a>. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/footer.js"></script>
+    <script src="js/hub/hub.js"></script>
+    <script src="js/hub/trivia.js"></script>
+    <script src="js/hub/locators.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN NOW</title>
+    
+    <link rel="icon" class="favicon" href="images/logos/logo1.png">
+    <link rel="stylesheet" href="css/essentials/footer.css">
+    <link rel="stylesheet" href="css/essentials/nav.css">
+    <link rel="stylesheet" href="css/essentials/utility.css">
+    <link rel="stylesheet" href="css/hub/memb.css">
+</head>
+
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav class="navlinks">
+        <ul>
+            <li><a href="index.html"><img src="images/logos/logo.png" alt="logo"></a></li>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="hub.html">HUB</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+ <!-- Hero Section -->
+ <section class="membership-hero">
+    <img src="images/services/membership/bg1.jpg" alt="memb">
+    <div class="hero-content">
+        <h1>Drive into the Elite JDM Inner Circle</h1>
+        <p>Gain access to premium perks, special discounts, and a growing network of like-minded enthusiasts.</p>
+        <button onclick="scrollToBenefits()">Explore Benefits</button>
+    </div>
+</section>
+
+
+<section class="membership-benefits">
+    <div class="benefit">
+        <!-- <img src="benefit1.png" alt="Benefit 1"> -->
+        <h3>Exclusive Events</h3>
+    </div>
+    <div class="benefit">
+        <!-- <img src="benefit2.png" alt="Benefit 2"> -->
+        <h3>Merch Discounts</h3>
+    </div>
+    <div class="benefit">
+        <!-- <img src="benefit3.png" alt="Benefit 3"> -->
+        <h3>Community Access</h3>
+    </div>
+    <div class="benefit">
+        <!-- <img src="benefit4.png" alt="Benefit 4"> -->
+        <h3>Early Invites</h3>
+    </div>
+</section>
+
+<!-- Subscription Plans Section -->
+<section class="membership-plans">
+    <h2>Pick Your Plan</h2>
+    <div class="plans-container">
+        <div class="plan">
+            <h3>3-Month Plan</h3>
+            <p class="price">₹999</p>
+            <ul>
+                <li>Event Access</li>
+                <li>5% Merchandise Discount</li>
+                <li>Basic Premium Resources</li>
+            </ul>
+            <button onclick="showLoginForm()">Get Now</button>
+        </div>
+        <div class="plan popular">
+            <h3>6-Month Plan</h3>
+            <p class="price">₹1,799</p>
+            <ul>
+                <li>All 3-Month Benefits</li>
+                <li>10% Merchandise Discount</li>
+                <li>Exclusive Meetups</li>
+            </ul>
+            <button onclick="showLoginForm()">Get Now</button>
+        </div>
+        <div class="plan">
+            <h3>Annual Plan</h3>
+            <p class="price">₹2,999</p>
+            <ul>
+                <li>All 6-Month Benefits</li>
+                <li>15% Merchandise Discount</li>
+                <li>Personalized Support</li>
+            </ul>
+            <button onclick="showLoginForm()">Get Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- Login Modal -->
+<div class="login-modal" id="loginModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeLoginForm()">&times;</span>
+        <h2>Apply for Membership</h2>
+        <form class="modal-form" id="loginForm" enctype="multipart/form-data">
+            <label for="username">Full Name</label>
+            <input type="text" id="username" name="username" placeholder="Enter your full name" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" min="1" required>
+
+            <label for="nationality">Address</label>
+            <input type="text" id="nationality" name="nationality" placeholder="Enter your Address" required>
+
+            <label for="education">Highest Education Level</label>
+            <select id="education" name="education" required>
+                <option value="" disabled selected>Select your education</option>
+                <option value="graduate">Graduate</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="profession">What interests you about JDM</label>
+            <textarea id="profession" name="profession" rows="4" placeholder="Share your thoughts on JDM"></textarea>
+
+            <label for="aadhar">Upload Aadhar Card</label>
+            <input type="file" id="aadhar" name="aadhar" accept=".jpg,.jpeg,.png,.pdf" required>
+
+            <label for="photo">Upload Your Photo</label>
+            <input type="file" id="photo" name="photo" accept=".jpg,.jpeg,.png" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+ <!-- Footer Section -->
+ <footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <div class="footer-topic">About Us</div>
+            <p>JDM Community is the largest drift community and car domestic market. Our goal is to spread JDM
+                culture globally, in collaboration with Mitsubishi, Toyota, Suzuki, and more.</p>
+            <div class="footer-topic">Contact Us</div>
+            <p><i class="fas fa-phone-alt"></i><a href="tel:+917888117903">+91 7888117903</a></p>
+            <p><i class="fas fa-envelope"></i><a href="mailto:devjasani79@gmail.com">devjasani79@gmail.com</a></p>
+        </div>
+
+        <div class="footer-middle">
+            <div class="footer-topic">Quick Links</div>
+            <ul>
+                <li><a href="hub.html#trivia">JDM Trivia</a></li>
+                <li><a href="hub.html#merchandise">JDM Merchandise</a></li>
+                <li><a href="hub.html#locators">JDM Locators</a></li>
+                <li><a href="hub.html#events">JDM Events</a></li>
+                <li><a href="hub.html#history">JDM History</a></li>
+                <li><a href="hub.html#glossary">JDM Glossary</a></li>
+                <li><a href="hub.html#membership">GET MEMBERSHIP</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-topic">Subscribe to Us</div>
+            <form id="subscribeForm" onsubmit="submitForm(); return false;">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <div class="footer-social">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><img
+                        src="images/logos/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/dev_jasani/" target="_blank" class="social-icon"><img
+                        src="images/logos/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/+917888117903" target="_blank" class="social-icon"><img
+                        src="images/logos/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 <a href="#">JDM WEB</a>. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="js/footer.js"></script>
+    <script src="js/hub/memb.js"></script>
+</body>
+
+</html>

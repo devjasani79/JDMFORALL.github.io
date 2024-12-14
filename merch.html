@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JDM Merchandise</title>
+    
+    <link rel="icon" class="favicon" href="images/logos/logo1.png">
+    <link rel="stylesheet" href="css/essentials/footer.css">
+    <link rel="stylesheet" href="css/essentials/nav.css">
+    <link rel="stylesheet" href="css/essentials/utility.css">
+    <link rel="stylesheet" href="css/hub/merch/merch.css">
+</head>
+
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav class="navlinks">
+        <ul>
+            <li><a href="index.html"><img src="images/logos/logo.png" alt="logo"></a></li>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="hub.html">HUB</a></li>
+            <li><a href="events.html">EVENTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <main>
+
+<!-- Shopping Cart Icon -->
+<div id="cart-icon" onclick="toggleCart()">
+    🛒
+    <span id="cart-count">0</span>
+</div>
+
+<!-- Cart Tab -->
+<div id="cart-tab" class="hidden">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div id="cart-total">
+        <h3>Total: $<span id="cart-total-price">0</span></h3>
+    </div>
+    <button id="checkout-button"><a href="checkout.html"> Checkout</a></button>
+</div>
+
+
+<!-- Hero Section -->
+<section id="hero-section">
+    <img src="images/services/merch/bg.jpg" alt="">
+   <div class="content">
+
+       <h1>Welcome to JDM Merchandise</h1>
+       <p>Explore our exclusive JDM apparel, accessories, and collectibles.</p>
+    </div>
+</section>
+<!-- Explore Categories -->
+<section id="categories-section">
+    <h2>Explore Categories</h2>
+    <div id="category-list">
+        <div class="category-item" onclick="toggleSubcategory('apparel')">
+            <h3>Apparel</h3>
+        </div>
+        <div class="category-item" onclick="toggleSubcategory('accessories')">
+            <h3>Accessories</h3>
+        </div>
+        <div class="category-item" onclick="toggleSubcategory('collectibles')">
+            <h3>Collectibles</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Product Sections -->
+<section id="apparel-section" class="category-section hidden">
+    <h2>Apparel</h2>
+    <div id="apparel-subcategories">
+        <span class="subcategory-item" onclick="showProducts('t-shirts')">
+            <button class="title">T-Shirts</button>
+        </span>
+        <span class="subcategory-item" onclick="showProducts('hoodies')">
+            <button class="title">Hoodies</button>
+        </span>
+        <span class="subcategory-item" onclick="showProducts('caps')">
+            <button class="title">Caps</button>
+        </span>
+    </div>
+</section>
+
+<section id="accessories-section" class="category-section hidden">
+    <h2>Accessories</h2>
+    <div id="accessories-subcategories">
+        <span class="subcategory-item" onclick="showProducts('keychains')">
+            <button class="title">Keychains</button>
+        </span>
+        <span class="subcategory-item" onclick="showProducts('glasses')">
+            <button class="title">Glasses</button>
+        </span>
+    </div>
+</section>
+
+<section id="collectibles-section" class="category-section hidden">
+    <h2>Collectibles</h2>
+    <div id="collectibles-subcategories">
+        <span class="subcategory-item" onclick="showProducts('mini-toys')">
+            <button class="title">Mini Toys</button>
+        </span>
+        <span class="subcategory-item" onclick="showProducts('posters')">
+            <button class="title">Posters</button>
+        </span>
+    </div>
+</section>
+
+<!-- Products Display Section -->
+<section id="product-display-section" class="hidden">
+
+    <div id="products-container"></div>
+</section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Footer Section -->
+ <footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <div class="footer-topic">About Us</div>
+            <p>JDM Community is the largest drift community and car domestic market. Our goal is to spread JDM
+                culture globally, in collaboration with Mitsubishi, Toyota, Suzuki, and more.</p>
+            <div class="footer-topic">Contact Us</div>
+            <p><i class="fas fa-phone-alt"></i><a href="tel:+917888117903">+91 7888117903</a></p>
+            <p><i class="fas fa-envelope"></i><a href="mailto:devjasani79@gmail.com">devjasani79@gmail.com</a></p>
+        </div>
+
+        <div class="footer-middle">
+            <div class="footer-topic">Quick Links</div>
+            <ul>
+                <li><a href="hub.html#trivia">JDM Trivia</a></li>
+                <li><a href="hub.html#merchandise">JDM Merchandise</a></li>
+                <li><a href="hub.html#locators">JDM Locators</a></li>
+                <li><a href="hub.html#events">JDM Events</a></li>
+                <li><a href="hub.html#history">JDM History</a></li>
+                <li><a href="hub.html#glossary">JDM Glossary</a></li>
+                <li><a href="hub.html#membership">GET MEMBERSHIP</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-topic">Subscribe to Us</div>
+            <form id="subscribeForm" onsubmit="submitForm(); return false;">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Subscribe">
+            </form>
+            <div class="footer-social">
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><img
+                        src="images/logos/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/dev_jasani/" target="_blank" class="social-icon"><img
+                        src="images/logos/instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/+917888117903" target="_blank" class="social-icon"><img
+                        src="images/logos/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 <a href="#">JDM WEB</a>. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="js/footer.js"></script>
+    <script src="js/hub/merch/merch.js"></script>
+</body>
+
+</html>
