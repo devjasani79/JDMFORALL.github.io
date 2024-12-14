@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "SUPRA T-Shirt",
+    "description": "A cool T-shirt with JDM branding.",
+    "price": 750,
+    "image": "images/services/merch/apparels/tshirts/tshirt1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "RACER T-Shirt",
+    "description": "A T-shirt for racing fans.",
+    "price": 650,
+    "image": "images/services/merch/apparels/tshirts/tshirt2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "DARK SIDE T-Shirt",
+    "description": "A cool T-shirt with JDM branding.",
+    "price": 700,
+    "image": "images/services/merch/apparels/tshirts/tshirt3.jpg"
+  }
+]

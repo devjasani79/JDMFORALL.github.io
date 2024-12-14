@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+
+:root {
+    --text-color: #ffffff;
+    --background: #ea1538;
+    --black: #000000;
+    --dark-gray: #353535;
+    --light-gray: #f3f3f3;
+    --highlight-shadow: rgba(128, 6, 6, 0.8);
+    --shadow-light: rgba(0, 0, 0, 0.5);
+    --body-font: 'Source Sans Pro', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+    --transition-time: 0.3s ease;
+}
+
+/* Carousel Section */
+.container1 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+}
+
+.main_view {
+    width: 100%;
+    height: 85vh;
+}
+
+.main_view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.side_view {
+    display: flex;
+    background-color: var(--dark-gray);
+    justify-content: center;
+}
+
+.side_view img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform var(--transition-time), box-shadow var(--transition-time);
+}
+
+.side_view img.active {
+    border: 2px solid var(--background);
+    box-shadow: 0 4px 8px var(--highlight-shadow);
+}
+
+.side_view img:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries for Carousel */
+@media (max-width: 768px) {
+    .main_view {
+        height: 50vh;
+    }
+
+    .side_view {
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .main_view {
+        height: 30vh;
+    }
+
+    .side_view {
+        flex-wrap: nowrap;
+        overflow: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: var(--background) var(--black);
+    }
+
+    .side_view::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .side_view::-webkit-scrollbar-thumb {
+        background: var(--background);
+        border-radius: 10px;
+    }
+}
+
+/* What Are JDMs Section */
+.what-are-jdms {
+    background: linear-gradient(0deg, var(--dark-gray), var(--black));
+    color: var(--text-color);
+    padding: 2rem 0.5rem;
+}
+
+.jdms-content {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.jdms-text {
+    float: left;
+    width: 55%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.jdms-text h1 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--background);
+}
+
+.jdms-text p {
+    font-family: var(--body-font);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.learn-more-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: var(--background);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color var(--transition-time);
+    
+    font-family: var(--body-font);
+}
+
+.learn-more-btn:hover {
+    background-color: #d31230;
+}
+
+.jdms-image {
+    float: right;
+    width: 40%;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.jdms-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px var(--shadow-light);
+}
+
+/* Responsive Design for What Are JDMs */
+@media (max-width: 768px) {
+
+    .jdms-text,
+    .jdms-image {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* JDM Difference Section */
+.jdm-difference {
+    background: linear-gradient(0deg, var(--black), var(--dark-gray));
+    color: var(--text-color);
+    padding: 2rem 1rem;
+    font-family: var(--body-font);
+}
+
+.difference-header,
+.better-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.difference-header h1,
+.better-header h1 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    color: var(--background);
+    margin-bottom: 0.5rem;
+}
+
+.difference-header p,
+.better-header p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+/* Table Styling */
+.comparison-table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 90%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+th,
+td {
+    padding: 1rem;
+    border: 1px solid #333;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #2a2a2a;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1f1f1f;
+}
+
+/* Graphs Section */
+.graphs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.bar-chart,
+.line-chart {
+    width: 45%;
+    min-width: 300px;
+}
+
+canvas {
+    background: #141414;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 15px var(--shadow-light);
+}
+
+/* Responsive Design for Graphs */
+@media (max-width: 768px) {
+    .graphs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bar-chart,
+    .line-chart {
+        width: 80%;
+    }
+}

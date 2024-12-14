@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+:root {
+  --body-font: 'Source Sans Pro', sans-serif;
+  --heading-font: 'Playfair Display', serif;
+}
+
+/* General Styles */
+body {
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+}
+
+/* History Section Styles */
+.history-main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.history-intro h1 {
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+  color: #ea1538;
+  margin-bottom: 10px;
+}
+
+.history-intro p {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  color: #ddd;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Cards Section */
+.history-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.history-card {
+  background-color: #1a1a1a;
+  width: 100%;
+  max-width: 31%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #ddd;
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.history-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.history-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.history-card h2 {
+  font-family: var(--heading-font);
+  font-size: 1.75rem;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.history-card p {font-family: var(--body-font);
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.history-card a {
+  color: #ffcc00;
+  font-size: 1rem;
+}
+
+.history-card a:hover {
+  color: #ff6633;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .history-card {
+    max-width: 48%;
+  }
+
+  .history-intro h1 {
+    font-size: 2rem;
+  }
+
+  .history-intro p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .history-card {
+    max-width: 100%;
+  }
+
+  .history-intro h1 {
+    font-size: 1.5rem;
+  }
+
+  .history-intro p {
+    font-size: 0.8rem;
+  }
+}

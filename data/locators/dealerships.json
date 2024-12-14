@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Mumbai JDM Autos",
+        "address": "Andheri, Mumbai, Maharashtra, India",
+        "contact": "+91 22-1234-5678",
+        "speciality": "Performance cars, new and used."
+    },
+    {
+        "name": "Hyderabad Speed Shop",
+        "address": "Banjara Hills, Hyderabad, Telangana, India",
+        "contact": "+91 40-9876-5432",
+        "speciality": "Custom tuning and parts."
+    },
+    {
+        "name": "Chennai JDM Motors",
+        "address": "Anna Nagar, Chennai, Tamil Nadu, India",
+        "contact": "+91 44-4321-8765",
+        "speciality": "Specializing in rare JDM models."
+    },
+    {
+        "name": "Nissan Delhi",
+        "address": "Connaught Place, New Delhi, India",
+        "contact": "+91 11-5678-1234",
+        "speciality": "Nissan cars and parts."
+    },
+    {
+        "name": "Pune JDM Imports",
+        "address": "Koregaon Park, Pune, Maharashtra, India",
+        "contact": "+91 20-5555-6789",
+        "speciality": "JDM imports and parts for the Indian market."
+    },
+    {
+        "name": "Kolkata JDM Garage",
+        "address": "Salt Lake, Kolkata, West Bengal, India",
+        "contact": "+91 33-7946-1234",
+        "speciality": "Custom JDM performance cars."
+    },
+    {
+        "name": "Bangalore Speed Garage",
+        "address": "Indiranagar, Bangalore, Karnataka, India",
+        "contact": "+91 80-1234-5678",
+        "speciality": "Tuning and modifications for JDM cars."
+    },
+    {
+        "name": "Jaipur JDM Motors",
+        "address": "C-Scheme, Jaipur, Rajasthan, India",
+        "contact": "+91 141-2345-6789",
+        "speciality": "JDM performance parts and tuning."
+    },
+    {
+        "name": "Ahmedabad JDM Hub",
+        "address": "CG Road, Ahmedabad, Gujarat, India",
+        "contact": "+91 79-9876-5432",
+        "speciality": "Custom parts and rare JDM imports."
+    },
+    {
+        "name": "Delhi JDM Autos",
+        "address": "Dwarka, New Delhi, India",
+        "contact": "+91 11-8765-4321",
+        "speciality": "JDM cars and performance tuning."
+    }
+]

@@ -1,0 +1,69 @@
+{
+    "cultureActivities": [
+        {
+            "logo": "/services/events/logo1.png",
+            "name": "Speedhunters",
+            "link": "https://www.speedhunters.com/"
+        },
+        {
+            "logo": "services/events/logo11.png",
+            "name": "Touge Union",
+            "link": "https://www.tougeunion.com/"
+        },
+        {
+            "logo": "services/events/logo13.png",
+            "name": "ImportFest",
+            "link": "https://www.importfest.com/"
+        },
+        {
+            "logo": "/services/events/logo2.png",
+            "name": "Japan Car Culture",
+            "link": "https://www.tokyoautosalon.jp/"
+        },
+        {
+            "logo": "services/events/logo4.png",
+            "name": "Team Legend India",
+            "link": "https://www.teamlegend.in/"
+        },
+        {
+            "logo": "services/events/logo5.png",
+            "name": "JDM Life",
+            "link": "https://www.jdmlife.net/"
+        },
+        {
+            "logo": "services/events/logo6.png",
+            "name": "Osaka Kanjo Loop",
+            "link": "https://www.osakastreetkings.com/"
+        },
+        {
+            "logo": "services/events/logo7.png",
+            "name": "StanceNation",
+            "link": "https://www.stancenation.com/"
+        },
+        {
+            "logo": "services/events/logo9.png",
+            "name": "Formula Drift",
+            "link": "https://www.formulad.com/"
+        },
+        {
+            "logo": "services/events/logo14.png",
+            "name": "Red Suns Tokyo",
+            "link": "https://www.redsunstokyo.com/"
+        },
+        {
+            "logo": "services/events/logo3.png",
+            "name": "Drift India",
+            "link": "https://www.driftindia.com/"
+        },
+        {
+            "logo": "services/events/logo8.png",
+            "name": "Mumbai Street Scenes",
+            "link": "https://www.mumbaistreetcars.com/"
+        },
+        {
+            "logo": "services/events/logo10.png",
+            "name": "Auto India Racing",
+            "link": "https://www.autoindiaracing.com/"
+        }
+    ]
+}

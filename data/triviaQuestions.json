@@ -1,0 +1,104 @@
+{
+    "questions": [
+        {
+            "question": "Which car is nicknamed 'Godzilla'?",
+            "answers": ["Toyota Supra", "Nissan GT-R", "Mazda RX-7", "Honda NSX"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "What does JDM stand for?",
+            "answers": ["Japanese Drift Machines", "Japan Domestic Motors", "Japanese Domestic Market", "Japan Design and Manufacturing"],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which company produced the iconic AE86?",
+            "answers": ["Mazda", "Toyota", "Nissan", "Subaru"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "What engine is found in the legendary Toyota Supra MK4?",
+            "answers": ["2JZ-GTE", "RB26DETT", "13B-REW", "K20A"],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Which JDM car has signature 'pop-up headlights'?",
+            "answers": ["Honda Civic", "Mazda RX-7", "Nissan 350Z", "Toyota Camry"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Which car is famous for being a rotary-engine JDM model?",
+            "answers": ["Mazda RX-7", "Honda NSX", "Subaru Impreza", "Toyota Celica"],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Which JDM car model was featured in the initial Fast and Furious movie?",
+            "answers": ["Mazda RX-7", "Toyota Supra", "Mitsubishi Eclipse", "Nissan Skyline GT-R"],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "Which JDM brand manufactures the WRX STI?",
+            "answers": ["Mazda", "Toyota", "Subaru", "Nissan"],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "What is the body type of the Honda S2000?",
+            "answers": ["Sedan", "Hatchback", "Coupe", "Convertible"],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "What year was the Nissan Skyline GT-R R34 released?",
+            "answers": ["1999", "2001", "1995", "1992"],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "Which car is often associated with the anime series Initial D?",
+            "answers": ["Mazda RX-7", "Toyota AE86", "Nissan Silvia", "Honda Civic"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Which JDM car is known for its 'VTEC' engine technology?",
+            "answers": ["Mazda RX-8", "Honda Civic", "Nissan 350Z", "Toyota MR2"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "What is the displacement of the iconic rotary engine in the Mazda RX-7?",
+            "answers": ["1.3L", "2.0L", "2.6L", "1.5L"],
+            "correctAnswerIndex": 0
+        },
+        {
+            "question": "What is the top trim level of the Nissan GT-R called?",
+            "answers": ["GT", "Track Edition", "NISMO", "Spec-V"],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "Which JDM car featured 'Butterfly Doors'?",
+            "answers": ["Mazda RX-7", "Nissan 350Z", "Toyota Supra", "Mazda RX-8"],
+            "correctAnswerIndex": 3
+        },
+        {
+            "question": "Which Japanese automaker uses the 'Three Diamonds' logo?",
+            "answers": ["Mazda", "Mitsubishi", "Nissan", "Subaru"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "What drivetrain is typical of most JDM sports cars?",
+            "answers": ["Front-Wheel Drive", "Rear-Wheel Drive", "All-Wheel Drive", "Four-Wheel Drive"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "What does the 'Type-R' designation represent?",
+            "answers": ["Luxury", "Performance", "Fuel Efficiency", "Technology"],
+            "correctAnswerIndex": 1
+        },
+        {
+            "question": "Which car is associated with the 'RB26DETT' engine?",
+            "answers": ["Toyota Supra", "Mazda RX-8", "Nissan Skyline GT-R", "Honda S2000"],
+            "correctAnswerIndex": 2
+        },
+        {
+            "question": "What is a key feature of the Subaru BRZ?",
+            "answers": ["Rotary Engine", "Boxer Engine", "V6 Engine", "Electric Motor"],
+            "correctAnswerIndex": 1
+        }
+    ]
+}

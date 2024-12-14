@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Mumbai JDM Parts Warehouse",
+        "address": "Andheri East, Mumbai, Maharashtra, India",
+        "contact": "+91 22-4321-8765",
+        "speciality": "Genuine JDM parts."
+    },
+    {
+        "name": "Nissan Parts Hub India",
+        "address": "Sector 18, Gurugram, Haryana, India",
+        "contact": "+91 124-5678-1234",
+        "speciality": "Nissan performance parts."
+    },
+    {
+        "name": "Pune JDM Auto Parts",
+        "address": "Kothrud, Pune, Maharashtra, India",
+        "contact": "+91 20-2345-6789",
+        "speciality": "High-performance JDM parts."
+    },
+    {
+        "name": "Delhi Auto Parts Center",
+        "address": "Karol Bagh, New Delhi, India",
+        "contact": "+91 11-9876-5432",
+        "speciality": "Specialized in rare JDM car parts."
+    },
+    {
+        "name": "Chennai JDM Parts Hub",
+        "address": "Velachery, Chennai, Tamil Nadu, India",
+        "contact": "+91 44-5555-1234",
+        "speciality": "Performance parts for South Indian JDM cars."
+    },
+    {
+        "name": "Hyderabad JDM Parts Shop",
+        "address": "Banjara Hills, Hyderabad, Telangana, India",
+        "contact": "+91 40-9876-5432",
+        "speciality": "Parts and accessories for JDM vehicles."
+    },
+    {
+        "name": "Bangalore JDM Parts Store",
+        "address": "Koramangala, Bangalore, Karnataka, India",
+        "contact": "+91 80-5678-1234",
+        "speciality": "High-end JDM parts."
+    },
+    {
+        "name": "Ahmedabad JDM Parts",
+        "address": "SG Highway, Ahmedabad, Gujarat, India",
+        "contact": "+91 79-1234-5678",
+        "speciality": "Custom parts for Indian JDM enthusiasts."
+    },
+    {
+        "name": "Kolkata JDM Parts",
+        "address": "Salt Lake, Kolkata, West Bengal, India",
+        "contact": "+91 33-2345-6789",
+        "speciality": "JDM car parts for East India."
+    }
+]

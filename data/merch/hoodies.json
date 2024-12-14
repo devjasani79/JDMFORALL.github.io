@@ -1,0 +1,16 @@
+[
+  {
+    "id": 4,
+    "name": "JDM HOODIES",
+    "description": "A warm hoodie with JDM logos.",
+    "price": 750,
+    "image": "images/services/merch/apparels/hoodies/hoodie1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "SPEEDSTER HOODIES",
+    "description": "A hoodie with a racer theme.",
+    "price": 900,
+    "image": "images/services/merch/apparels/hoodies/hoodie2.jpg"
+  }
+]

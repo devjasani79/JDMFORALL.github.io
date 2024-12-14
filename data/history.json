@@ -1,0 +1,108 @@
+[
+    {
+      "year": 1960,
+      "event": "The Birth of Japanese Compact Cars",
+      "description": "Japan's automakers revolutionized the global car industry with small, fuel-efficient vehicles. The Toyota Corolla, introduced in 1966, became a symbol of the Japanese economy's rapid growth.",
+      "read_more_url": "https://global.toyota/history/1960s",
+      "images": ["images/services/history/1969.jpg"]
+    },
+    {
+      "year": 1969,
+      "event": "Nissan Skyline GT-R Debuts",
+      "description": "The original Nissan Skyline GT-R (Hakosuka) redefined performance with its DOHC S20 inline-six engine. It quickly gained fame in motorsport, especially in Japan’s touring car races.",
+      "read_more_url": "https://nissan-history.com/skyline-gt-r-hakosuka",
+      "images": ["images/services/history/1969(2).jpg"]
+    },
+    {
+      "year": 1980,
+      "event": "The Turbo Era Begins",
+      "description": "In the 1980s, Japanese automakers like Toyota and Mazda embraced turbocharging, creating some of the most iconic cars of the era. The Toyota Supra and Mazda RX-7 changed the performance car landscape forever.",
+      "read_more_url": "https://mazda.com/rx7-turbo-history",
+      "images": ["images/services/history/1980.jpg"]
+    },
+    {
+      "year": 1990,
+      "event": "The Golden Era of JDM Cars",
+      "description": "The 1990s marked the golden era of JDM cars. Iconic models like the Nissan Silvia S15, Mitsubishi Lancer Evo IV, and Subaru Impreza WRX debuted, becoming legends of both street culture and motorsport.",
+      "read_more_url": "https://jdmgoldenage.com/1990s",
+      "images": ["images/services/history/1990.jpg"]
+    },
+    {
+      "year": 1992,
+      "event": "Honda NSX Revolutionizes Supercars",
+      "description": "The Honda NSX became the first Japanese supercar to challenge European dominance in the performance market. With its advanced design and engineering, the NSX set a new standard for performance and reliability.",
+      "read_more_url": "https://honda.com/nsx-history",
+      "images": ["images/services/history/1992.jpg"]
+    },
+    {
+      "year": 1995,
+      "event": "Subaru Impreza WRX STI Introduced",
+      "description": "The Subaru Impreza WRX STI made its debut, cementing its place as one of the most successful rally cars in history. Known for its turbocharged all-wheel drive, it became a fan favorite in motorsport.",
+      "read_more_url": "https://subaru.com/wrx-history",
+      "images": ["images/services/history/1993.jpg"]
+    },
+    {
+      "year": 1999,
+      "event": "Mazda RX-7 FD Continues the Rotary Legacy",
+      "description": "The Mazda RX-7 FD, with its lightweight design and rotary engine, continued the legacy of rotary-powered vehicles. It became a symbol of innovation in the automotive world.",
+      "read_more_url": "https://mazda.com/rx7-fd-history",
+      "images": ["images/services/history/1999.jpg"]
+    },
+    {
+      "year": 2000,
+      "event": "The Rise of the Nissan GT-R R35",
+      "description": "In 2007, the Nissan GT-R R35 was unveiled, featuring a VR38DETT engine and advanced electronics, marking a shift to a more global market. The GT-R became an instant icon.",
+      "read_more_url": "https://nissan-gtr.com/r35",
+      "images": ["images/services/history/2000.jpg"]
+    },
+    {
+      "year": 2001,
+      "event": "Toyota Supra A80 Becomes a Legend",
+      "description": "The Toyota Supra A80, powered by the 2JZ-GTE engine, became one of the most iconic JDM cars, loved for its tuning potential and its role in the Fast & Furious franchise.",
+      "read_more_url": "https://toyota.com/supra-history",
+      "images": ["images/services/history/2001.jpg"]
+    },
+    {
+      "year": 2010,
+      "event": "Subaru BRZ and Toyota 86 Revive the Sports Car Scene",
+      "description": "In 2010, Subaru and Toyota launched the BRZ and 86, respectively, rekindling interest in affordable, rear-wheel-drive sports cars. These cars brought the joy of driving back to the masses.",
+      "read_more_url": "https://subaru.com/brz-history",
+      "images": ["images/services/history/2010.jpg"]
+    },
+    {
+      "year": 2015,
+      "event": "Honda Civic Type R Returns",
+      "description": "After years of anticipation, the Honda Civic Type R returned to the U.S. market, featuring a turbocharged engine and a modern design. It quickly became one of the best performance hatchbacks.",
+      "read_more_url": "https://honda.com/civic-type-r-history",
+      "images": ["images/services/history/2015.jpg"]
+    },
+    {
+      "year": 2020,
+      "event": "Toyota GR Supra Rebirth",
+      "description": "After years of waiting, the Toyota GR Supra made its return with a new platform and a turbocharged engine. It became a modern icon, drawing inspiration from its predecessors while embracing modern technology.",
+      "read_more_url": "https://toyota.com/gr-supra-history",
+      "images": ["images/services/history/2020.jpg"]
+    },
+    {
+        "year": 2021,
+        "event": "Toyota GR Yaris Wins 2021 World Rally Championship",
+        "description": "The Toyota GR Yaris proved itself as a powerhouse by winning the 2021 World Rally Championship. Its small, agile design and powerful engine made it a success in motorsport, earning praise worldwide.",
+        "read_more_url": "https://www.toyota-global.com/gr/yaris/",
+        "images": ["images/services/history/2021.jpg"]
+      },
+    {
+        "year": 2023,
+        "event": "Nissan Z (400Z) Reintroduced",
+        "description": "The Nissan Z made its return after years of anticipation. The 400Z brought modern technology and design to the legendary Z lineup, blending classic styling with the power of a twin-turbo V6 engine.",
+        "read_more_url": "https://www.nissan-global.com/Z/",
+        "images": ["images/services/history/2023.jpg"]
+      },
+      {
+        "year": 2024,
+        "event": "Toyota GR86 and Subaru BRZ Updated Models",
+        "description": "Both the Toyota GR86 and Subaru BRZ received significant updates, improving performance, handling, and design. These cars continue to be the enthusiasts' choice for affordable, rear-wheel-drive sports cars.",
+        "read_more_url": "https://www.toyota-global.com/gr86/",
+        "images": ["images/services/history/2024.jpg"]
+      }
+  ]
+  

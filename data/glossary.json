@@ -1,0 +1,135 @@
+{
+    "glossary": [
+      {
+        "name": "AE86",
+        "description": "A lightweight, rear-wheel-drive car made by Toyota, iconic in drift culture. Known as the Toyota Corolla Levin or Sprinter Trueno, it gained popularity through the 'Initial D' series.",
+        "url": "https://en.wikipedia.org/wiki/Toyota_AE86"
+      },
+      {
+        "name": "Drift",
+        "description": "A driving technique where the driver intentionally oversteers, causing loss of traction in the rear wheels while maintaining control. It originated in Japan and became a global motorsport phenomenon.",
+        "url": "https://en.wikipedia.org/wiki/Drifting_(motorsport)"
+      },
+      {
+        "name": "RB26DETT",
+        "description": "An inline-six twin-turbocharged engine produced by Nissan, primarily used in the Skyline GT-R models R32, R33, and R34. Renowned for its performance and tunability.",
+        "url": "https://en.wikipedia.org/wiki/Nissan_Skyline_GT-R"
+      },
+      {
+        "name": "2JZ-GTE",
+        "description": "A legendary inline-six twin-turbocharged engine from Toyota, used in the Mk4 Toyota Supra. It is celebrated for its incredible strength and aftermarket tuning potential.",
+        "url": "https://en.wikipedia.org/wiki/Toyota_JZ_engine"
+      },
+      {
+        "name": "Touge",
+        "description": "Japanese term for mountain passes, where spirited driving and unofficial road races occur. These routes often feature tight corners and elevation changes, ideal for drifting.",
+        "url": "https://en.wikipedia.org/wiki/T%C5%8Dge"
+      },
+      {
+        "name": "RWD",
+        "description": "Rear-Wheel Drive, a drivetrain layout where power is delivered to the rear wheels. It is preferred for drifting and high-performance driving due to improved weight distribution.",
+        "url": "https://en.wikipedia.org/wiki/Rear-wheel_drive"
+      },
+      {
+        "name": "Kaido Racer",
+        "description": "A style of Japanese car modification inspired by race cars from the 1970s and 1980s. Characterized by exaggerated aero kits, bright colors, and loud exhaust systems.",
+        "url": "https://en.wikipedia.org/wiki/B%C5%8Ds%C5%8Dzoku"
+      },
+      {
+        "name": "Itasha",
+        "description": "A Japanese car decoration trend where vehicles are adorned with anime, manga, or video game character decals. Itasha translates to 'painful car,' referencing the cost or visual impact.",
+        "url": "https://en.wikipedia.org/wiki/Itasha"
+      },
+      {
+        "name": "Initial D",
+        "description": "A popular manga and anime series that brought global fame to Japanese street racing and drifting culture. It features iconic cars like the AE86 and Nissan GT-R.",
+        "url": "https://en.wikipedia.org/wiki/Initial_D"
+      },
+      {
+        "name": "Silvia",
+        "description": "A series of sport coupes produced by Nissan, especially the S13, S14, and S15 models. They are highly regarded in the drifting community.",
+        "url": "https://en.wikipedia.org/wiki/Nissan_Silvia"
+      },
+      {
+        "name": "Spoon Sports",
+        "description": "A famous Japanese tuning company specializing in Honda vehicles. Known for their high-performance parts and modifications.",
+        "url": "https://en.wikipedia.org/wiki/Spoon_Sports"
+      },
+      {
+        "name": "Boso Exhaust",
+        "description": "An exaggerated exhaust pipe style associated with Bosozoku culture, characterized by long, angled, or stacked pipes.",
+        "url": "https://en.wikipedia.org/wiki/B%C5%8Ds%C5%8Dzoku"
+      },
+      {
+        "name": "VTEC",
+        "description": "Variable Valve Timing and Lift Electronic Control, Honda's innovative engine technology that optimizes performance and efficiency at different RPMs.",
+        "url": "https://en.wikipedia.org/wiki/VTEC"
+      },
+      {
+        "name": "GT Wing",
+        "description": "A large rear wing added to cars for aerodynamic stability at high speeds. Commonly seen on modified cars in motorsport.",
+        "url": "https://en.wikipedia.org/wiki/Spoiler_(car)"
+      },
+      {
+        "name": "Rocket Bunny",
+        "description": "A popular Japanese aftermarket body kit brand, known for its wide-body kits and aggressive styling.",
+        "url": "https://en.wikipedia.org/wiki/Kei_Miura"
+      },
+      {
+        "name": "Wangan",
+        "description": "Refers to the high-speed expressways around Tokyo Bay, famous for street racing culture. The Wangan Midnight manga and anime are set here.",
+        "url": "https://en.wikipedia.org/wiki/Shuto_Expressway"
+      },
+      {
+        "name": "JDM",
+        "description": "Japanese Domestic Market, referring to cars and parts designed specifically for the Japanese market. JDM has become synonymous with high-quality performance and tuning.",
+        "url": "https://en.wikipedia.org/wiki/Japanese_domestic_market"
+      },
+      {
+        "name": "Bosozoku",
+        "description": "A Japanese subculture associated with rebellious motorcycle and car modification groups. Their cars are often flamboyant with loud exhausts and bold designs.",
+        "url": "https://en.wikipedia.org/wiki/B%C5%8Ds%C5%8Dzoku"
+      },
+      {
+        "name": "RX-7",
+        "description": "A rotary-engine sports car made by Mazda. The FD3S model is especially beloved for its design and performance.",
+        "url": "https://en.wikipedia.org/wiki/Mazda_RX-7"
+      },
+      {
+        "name": "GT-R",
+        "description": "Nissan's flagship performance car series, starting with the Hakosuka Skyline GT-R and continuing to the R35. Revered for speed, power, and advanced engineering.",
+        "url": "https://en.wikipedia.org/wiki/Nissan_GT-R"
+      },
+      {
+        "name": "AE85",
+        "description": "A less powerful, front-wheel-drive version of the Toyota Corolla that shares its platform with the AE86. While less iconic, it has been the subject of drifting culture.",
+        "url": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+      },
+      {
+        "name": "Nitto Tires",
+        "description": "A leading brand of high-performance tires, especially known in drifting and motorsport circles for their grip and durability.",
+        "url": "https://en.wikipedia.org/wiki/Nitto_Tires"
+      },
+      {
+        "name": "Kouki",
+        "description": "Refers to the later, updated versions of cars, often with revised styling or performance upgrades. Commonly used in the context of Nissan Silvia S14 and other cars.",
+        "url": "https://en.wikipedia.org/wiki/Nissan_Silvia"
+      },
+      {
+        "name": "Zenki",
+        "description": "Refers to the earlier, pre-facelift versions of cars, often having less refined designs or equipment compared to the 'kouki' models.",
+        "url": "https://en.wikipedia.org/wiki/Nissan_Silvia"
+      },
+      {
+        "name": "Turbocharger",
+        "description": "A forced induction system that increases an engine's power output by compressing air and forcing it into the engine's cylinders. Popular in many high-performance JDM cars.",
+        "url": "https://en.wikipedia.org/wiki/Turbocharger"
+      },
+      {
+        "name": "Aftermarket Parts",
+        "description": "Parts and accessories made by companies other than the vehicle's original manufacturer, often used for performance enhancements, styling, or customization.",
+        "url": "https://en.wikipedia.org/wiki/Aftermarket_part"
+      }
+    ]
+  }
+  

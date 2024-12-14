@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Chinmay Mahashabde",
+        "role": "Community Manager",
+        "image": "images/about/chinmay.jpeg"
+    },
+    {
+        "name": "Varun Sagle",
+        "role": "Tech Manager",
+        "image": "images/about/varun.jpeg"
+    },
+    {
+        "name": "Varad Nimbalker",
+        "role": "Event Organizer",
+        "image": "images/about/varad.jpeg"
+    },
+    {
+        "name": "Nachiket Bhande",
+        "role": "Marketing & Social Head",
+        "image": "images/about/nex.jpeg"
+    },
+    {
+        "name": "Nirvana Soul",
+        "role": "Brand Ambassador",
+        "image": "images/about/nirvana.jpeg"
+    },
+    {
+        "name": "Melwin Thomas",
+        "role": "Supervisior",
+        "image": "images/about/melwin.jpeg"
+    }
+]

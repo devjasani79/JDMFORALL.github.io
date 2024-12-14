@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+:root {
+    --text-color: #ffffff;
+    --background: #ea1538;
+
+    --body-font: 'Source Sans Pro', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+    --btn-hover-bg: #ff4a61;
+    --overlay-bg: rgba(0, 0, 0, 0.5);
+    --heading-font-size: 3.5em;
+    --button-font-size: 1em;
+    --content-font-size: 2.5em;
+}
+
+.favicon{
+    filter: invert(1);
+}
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* Navbar Styling */
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navlinks {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 5%;
+}
+
+.navlinks ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navlinks ul li {
+    list-style-type: none;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.3em;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+
+.navlinks ul li img {
+    filter: invert(1);
+    width: 60px;
+    transition: 0.3s;
+}
+
+
+button {
+    border: none;
+    background: var(--background);
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: var(--text-color);
+    font-size: var(--button-font-size);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.navlinks ul li a:hover {
+    color: var(--background);
+}
+
+button:hover {
+    background-color: var(--btn-hover-bg);
+    transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navlinks ul li a {
+        font-size: 1em;
+        padding: 8px 10px;
+    }
+
+    .navlinks ul li img {
+        width: 40px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .navlinks ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        
+    }
+
+    .navlinks ul li {
+        padding: 5px 0;
+    }
+
+    .navlinks ul li a {
+        font-size: 0.9em;
+        padding: 5px 5px;
+    }
+
+    .navlinks ul li img {
+        width: 35px;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 0.85em;
+    }
+}
+
+/* Video Background Styling */
+.bgvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.bgvideo video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay-bg);
+    z-index: -1;
+}
+
+/* Main Content Centered Text Styling */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.content h1 {
+    font-size: var(--heading-font-size);
+    margin-bottom: 20px;
+    transition: 1s;
+    padding: 20px;
+}
+
+.content h1:hover {
+    -webkit-text-stroke: 2px var(--text-color);
+    color: var(--background);
+}
+
+
+/* Responsive Content Adjustments */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2.5em;
+        padding: 15px;
+    }
+
+    .content a {
+        font-size: 0.8em;
+        padding: 5px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 1.8em;
+        padding: 10px;
+    }
+
+    .content a {
+        font-size: 0.8em;
+        padding: 5px 25px;
+    }
+}
+.content .buttons {
+    display: flex;
+    gap: 20px; /* Adds space between the buttons */
+    justify-content: center; /* Centers the buttons horizontally */
+    margin-top: 20px; /* Adds space between buttons and the heading */
+}
+
+.content a {
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    border-radius: 50px;
+    padding: 7px 35px;
+    transition: all 0.3s ease;
+}
+
+.content a:hover {
+    background-color: var(--background);
+}

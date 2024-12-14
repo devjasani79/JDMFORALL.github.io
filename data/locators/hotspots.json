@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Mumbai Drift Park",
+        "address": "Panvel, Mumbai, Maharashtra, India",
+        "contact": "+91 22-1234-5678",
+        "speciality": "Drifting events and competitions."
+    },
+    {
+        "name": "Pune Car Meet",
+        "address": "Koregaon Park, Pune, Maharashtra, India",
+        "contact": "+91 20-1234-9876",
+        "speciality": "Car meets and tuning events."
+    },
+    {
+        "name": "Chennai JDM Track Day",
+        "address": "Sriperumbudur, Chennai, Tamil Nadu, India",
+        "contact": "+91 44-2345-6789",
+        "speciality": "Track days for JDM enthusiasts."
+    },
+    {
+        "name": "Delhi JDM Car Meet",
+        "address": "India Gate, New Delhi, India",
+        "contact": "+91 11-5555-9876",
+        "speciality": "Weekly car meets and exhibitions."
+    },
+    {
+        "name": "Bangalore Auto Show",
+        "address": "Whitefield, Bangalore, Karnataka, India",
+        "contact": "+91 80-4567-1234",
+        "speciality": "The largest JDM car exhibition in the region."
+    },
+    {
+        "name": "Hyderabad Drift Fest",
+        "address": "Gachibowli, Hyderabad, Telangana, India",
+        "contact": "+91 40-7890-2345",
+        "speciality": "Annual drift festival and competitions."
+    },
+    {
+        "name": "Ahmedabad Car Culture Meet",
+        "address": "Satellite Road, Ahmedabad, Gujarat, India",
+        "contact": "+91 79-7654-3210",
+        "speciality": "Car meets celebrating JDM culture."
+    },
+    {
+        "name": "Kolkata Car Meet",
+        "address": "Eco Park, Kolkata, West Bengal, India",
+        "contact": "+91 33-6789-1234",
+        "speciality": "Indian JDM community meet-ups."
+    },
+    {
+        "name": "Jaipur Drift Park",
+        "address": "Ajmer Road, Jaipur, Rajasthan, India",
+        "contact": "+91 141-2345-6789",
+        "speciality": "Drift events and car showcases."
+    }
+]

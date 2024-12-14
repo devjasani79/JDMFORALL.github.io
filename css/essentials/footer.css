@@ -1,0 +1,143 @@
+:root {
+    --text-color: #ffffff;
+    --background: #ea1538;
+}
+footer {
+    background-color:black;
+    color: var(--text-color);
+    padding: 2rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-left, .footer-middle, .footer-right {
+    width: 30%;
+}
+
+.footer-topic {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--background) /* JDM accent color */
+}
+
+footer p, footer a {
+    font-size: 1rem;
+    color:var(--text-color);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-left p, .footer-middle ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-middle ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-middle ul li a {
+    color:var(--text-color);
+    font-size: 1rem;
+    text-decoration: none;
+}
+.footer-middle ul li a:hover{
+    color: #ea1538;
+    text-decoration: underline;
+}
+.footer-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer input[type="email"], footer input[type="submit"] {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+footer input[type="email"] {
+    background-color: #333;
+    color: var(--text-color);
+}
+
+footer input[type="submit"] {
+    background-color:var(--background);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+footer input[type="submit"]:hover {
+    background-color:var(--background);
+}
+
+.footer-social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-social .social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+    filter: invert(1);
+}
+
+.footer-social .social-icon:hover img {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.footer-bottom a {
+    color: var(--background);
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Hover Effects for Links */
+footer a:hover {
+    color: var(--background);
+}
+/* Style for social icon images */
+.social-icon img {
+    transition: filter 0.3s ease; /* Smooth transition */
+}
+
+/* On hover, invert the image colors */
+.social-icon:hover img {
+    filter: invert(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        /* flex-direction: column; */
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-left, .footer-middle, .footer-right {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+:root {
+    --text-color: #ffffff;
+    
+    --body-font: 'Source Sans Pro', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+    --background: #ea1538;
+}
+.favicon{
+    filter: invert(1);
+}
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+/* Navbar Styling */
+header {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(200, 200, 200, 0.3);
+
+}
+
+.navlinks {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 5%;
+}
+
+.navlinks ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navlinks ul li {
+    list-style-type: none;
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.3em;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+
+.navlinks ul li img {
+    filter: invert(1);
+    width: 60px;
+    transition: 0.3s;
+}
+
+button {
+    border: none;
+    background: var(--background);
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: var(--text-color);
+    font-size: 1em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover effects */
+.navlinks ul li a:hover {
+    color: var(--background);
+}
+
+button:hover {
+    background-color: #ff4a61;
+    transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .navlinks ul li a {
+        font-size: 1em;
+        padding: 8px 10px;
+    }
+
+    .navlinks ul li img {
+        width: 40px;
+    }
+
+    button {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .navlinks ul {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .navlinks ul li {
+        padding: 5px 0;
+    }
+
+    .navlinks ul li a {
+        font-size: 0.9em;
+        padding: 5px 5px;
+    }
+
+    .navlinks ul li img {
+        width: 35px;
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 0.85em;
+    }
+}

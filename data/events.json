@@ -1,0 +1,28 @@
+{
+    "weekly-meets": [
+      { "name": "JDM Weekly Meetup #1", "place": "Mumbai, India", "desc": "Join us for the first weekly meetup of JDM enthusiasts. A chance to showcase your ride and meet fellow enthusiasts.", "date": "2024-12-15" },
+      { "name": "JDM Weekly Meetup #2", "place": "Pune, India", "desc": "Meet up with other car lovers and enjoy an evening of discussions and car showcases.", "date": "2024-12-22" }
+    ],
+    "race-drift": [
+      { "name": "Mumbai Drift Championship", "place": "Mumbai, India", "desc": "Witness the best drifters battle it out in Mumbai. A thrilling race you can't miss!", "date": "2025-01-10" },
+      { "name": "Hyderabad Drift Showdown", "place": "Hyderabad, India", "desc": "Experience intense drifting action at the iconic Hyderabad Drift Showdown.", "date": "2025-02-15" },
+      { "name": "Bangalore Street Drift", "place": "Bangalore, India", "desc": "Watch top drifters race through the streets of Bangalore at night.", "date": "2025-03-01" },
+      { "name": "Chennai Drift Cup", "place": "Chennai, India", "desc": "Join the Chennai Drift Cup and witness fierce competition from local and international drivers.", "date": "2025-04-20" }
+    ],
+    "seminar": [
+      { "name": "JDM History Seminar", "place": "Ahmedabad, India", "desc": "Learn the rich history of JDM cars and their impact on the global automotive culture.", "date": "2024-12-18" },
+      { "name": "JDM Performance Tuning Workshop", "place": "Kolkata, India", "desc": "Discover the secrets behind tuning JDM cars for ultimate performance.", "date": "2025-01-30" }
+    ],
+    "exhibitions": [
+      { "name": "JDM Car Exhibition", "place": "Delhi, India", "desc": "Explore rare and vintage JDM cars on display at this exclusive exhibition.", "date": "2025-01-05" },
+      { "name": "India Auto Show", "place": "Delhi, India", "desc": "See the latest JDM models and concept cars at the India Auto Show.", "date": "2025-04-10" }
+    ],
+    "auctions": [
+      { "name": "Rare JDM Car Auction", "place": "Mumbai, India", "desc": "Bid on one-of-a-kind JDM cars at this exciting auction event.", "date": "2025-01-12" },
+      { "name": "Vintage JDM Car Auction", "place": "Pune, India", "desc": "A chance to own a piece of JDM history. Don't miss out on the rarest cars.", "date": "2025-03-25" }
+    ],
+    "tours": [
+      { "name": "JDM Road Tour", "place": "Goa, India", "desc": "Join us for a scenic road tour with fellow JDM car enthusiasts, exploring the beauty of Goa.", "date": "2025-02-01" }
+    ]
+  }
+  
